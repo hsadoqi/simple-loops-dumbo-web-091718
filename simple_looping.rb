@@ -14,7 +14,9 @@ def loop_iterator(number_of_times)
     puts phrase
     x += 1 
   end
-  
+  if x >= number_of_times
+    break
+  end
 end
 
 def times_iterator(number_of_times)
